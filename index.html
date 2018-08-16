@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Stop: It's Giphy time</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <style>
+
+  button{
+    margin: 2px;
+  }
+  #animalForm{
+    box-sizing: border-box;
+  }
+  .form-control {
+      display: block;
+      
+  }
+  
+  .btn-info {
+    color: #fff;
+    background-color: #0660b9;
+    border-color: #0660b9;
+
+  .animaldiv  .animals{
+      width: 100%;
+      padding-right: 15px;
+      padding-left: 15px;
+      margin-right: auto;
+      margin-left: auto;
+  }
+  </style></head>
+
+<body>
+
+  <div class="container-fluid">
+  <div class="jumbotron" style="text-align:center;background-color:#0660b9;color: white; font-family: cursive;">
+    <h1>Animal Kingdom Search</h1>
+</div>
+  <div class="row">
+    <div class ="col-md-9">
+    <!-- Animal GIF will Get Dumped Here -->
+   <div id="animal-view" class="dropdown"></div>
+  </div>
+  <div class ="col-md-3">
+    <form id="animal-form" class="form-group"">
+      <label for="animal-input">Add an Animal</label>
+      <input type="text" id="animal-input" class="form-control">
+      <br>
+      <!-- Button triggers new animal to be added -->
+      <input id="add-animal" type="submit" value="Add an Animal" class="btn btn-info">
+    </form>
+  
+    <!-- Rendered Buttons will get Dumped Here  -->
+    <div id="buttons-view" class="dropdown"></div>
+  </div>
+  </div>
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js">
+
+    </script>
+  </div>
+</body>
+
+</html>
