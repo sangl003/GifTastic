@@ -1,5 +1,5 @@
     // Initial array of movies
-        var animals = ["cat", "dog", "monkey", "bird"];  
+        var animals = ["cat", "dog", "monkey", "bird", "owl", "Giraffe","Lion","Zebra","flemingo"];  
 
         function AddButtons()
         {
